@@ -118,7 +118,27 @@
     </section>
 
 
-
+    <section class="section" style="background-color:#ffffff">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3">Optimus-3</h2>
+                        <img src="assets/images/fig1.png" class="interpolation-image" alt=""
+                            style="display: block; margin-left: auto; margin-right: auto" width="800" height="700" />
+                        <br>
+                        <span style="font-size: 110%">
+                            Demonstration of Optimus-3’s capabilities as a generalist agent in Minecraft. It can 
+                            perform long-horizon task planning, captioning, embodied QA, grounding, low-level 
+                            action generation, and reflection in an interactive manner. All of these capabilities 
+                            are seamlessly integrated into a unified end-to-end architecture, enabling robust and 
+                            coherent performance across diverse task scenarios.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="section" style="background-color:#efeff081">
         <div class="container is-max-desktop">
             <!-- Abstract. -->
@@ -143,15 +163,34 @@
             </div>
         </div>
     </section>
-
-   
-
+    
     <section class="section" style="background-color:#ffffff">
         <div class="container is-max-widescreen">
             <div class="rows">
                 <div class="rows is-centered ">
                     <div class="row is-full-width">
-                        <h2 class="title is-3">Overview framework of our Optimus-3</h2>
+                        <h2 class="title is-3">Data Generation Pipeline</h2>
+                        <img src="assets/images/fig3.png" class="interpolation-image" alt=""
+                            style="display: block; margin-left: auto; margin-right: auto" width="800" height="700" />
+                        <br>
+                        <span style="font-size: 110%">
+                            Given a task pool, we utilize a knowledge graph to generate task plans, forming the planning dataset. 
+                            These plans are then used as instructions for STEVE-1, which interacts with the environment to produce 
+                            the action dataset. During this process, we randomly sample images and employ expert models with  environmental 
+                            feedback to generate the captioning, embodied QA, and grounding datasets.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="section" style="background-color:#efeff081">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3">Overview framework</h2>
                         <img src="assets/images/fig2.png" class="interpolation-image" alt=""
                             style="display: block; margin-left: auto; margin-right: auto" width="800" height="700" />
                         <br>
@@ -169,7 +208,7 @@
 
 
     <!-- result -->
-    <section class="section" style="background-color:#efeff081">
+    <section class="section" style="background-color:#ffffff">
         <div class="container is-max-widescreen">
             <div class="rows">
                 <div class="rows is-centered ">
